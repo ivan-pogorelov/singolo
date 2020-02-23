@@ -1,0 +1,174 @@
+body {
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: #2d303a ;
+  width: 1020px;
+  margin: 0 auto;
+  height: 89px;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header__logo {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header__logo span {
+  color: red;
+}
+
+.navigation {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.navigation__link:hover {
+  color: #f06c64;
+}
+
+.navigation__link:last-child {
+  padding-right: 0;
+}
+
+.bottom-line {
+  height: 6px;
+  width: 100%;
+}
+
+.header_bottom-line {
+  background-color: #323746;
+}
+
+/* SLIDE */
+
+section {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.slider {
+  height: 594px;
+  background-color: #f06c64;
+  width: 1020px;
+  margin: 6px auto 6px auto;
+}
+
+.slider__wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider__tele-vertical {
+  background-image: url(./assets/img/tele-vertical.png);
+  width: 240px;
+  height: 483px;
+}
+
+.slider__tele-horizontal {
+  background-image: url(./assets/img/tele-horizontal.png);
+  width: 484px;
+  height: 240px;
+}
+
+.slider_bottom-line {
+  background-color: #ea676b;
+}
+
+/* Our Services */
+
+.our-services {
+  padding-top: 60px;
+  color: #767e9e;
+  width: 1020px;
+  background-color: #f2f2f2;
+  height: 500px;
+}
+
+.our-services__text h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.our-services__text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.our-services__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.our-services__item {
+  max-width: 300px;
+  /* height: 85px; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrapper_string-2 {
+  margin-top: 25px;
+  margin-bottom: 74px;
+}
+
+.our-item__img {
+  width: 59px;
+  height: 59px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.our-services__item img {
+  margin-right: 20px;
+}
+
+.item__text h3 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+.item__text p {
+  line-height: 1.8;
+}
+
+.our-services_bottom-line {
+  background-color: #ffffff;
+}
