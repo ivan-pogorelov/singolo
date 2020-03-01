@@ -1,0 +1,196 @@
+body {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.bottom-line {
+  height: 6px;
+  width: 100%;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  background-color: #2d303a ;
+  width: 1020px;
+  margin: 0 auto;
+  height: 870px;
+  position: relative;
+}
+
+.portfolio-text {
+  padding-top: 61px;
+  padding-bottom: 10px;
+  color: #666d89;
+}
+
+.portfolio-text h1 {
+  font-size: 30px;
+}
+
+.portfolio-text p {
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.portfolio__button {
+  margin: 4px 0 19px 0;
+}
+
+.portfolio__button a {
+  margin: 0 10px;
+  height: 22px;
+}
+
+.portfolio__button a:first-child {
+  margin: 0;
+  width: 30px;
+}
+
+.portfolio__button a:nth-child(2) {
+  width: 77px;
+}
+
+.portfolio__button a:nth-child(3) {
+  margin: 0 10px 0 -3px;
+  width: 93px;
+}
+
+.portfolio__button a:last-child {
+  width: 57px;
+  margin: 0 0 0 -3px;
+}
+
+.portfolio__button a:hover {
+  border-color: #fff;
+}
+
+.button {
+  display: inline-block;
+  color: #767e9e;
+  border: 1px solid #767e9e;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.portfolio__images {
+  max-height: 601px;
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.images-portfolio {
+  height: 187px;
+  width: 220px;
+}
+
+.portfolio_bottom-line {
+  background-color: #323746;
+  position: absolute;
+  bottom: 0;
+}
+
+/* ABOUT US */
+
+.about-us {
+  background-color: #f2f2f2 ;
+  width: 1020px;
+  margin: 0 auto;
+  height: 734px;
+  position: relative;
+}
+
+.about-us__text {
+  padding-top: 61px;
+  padding-bottom: 10px;
+  color: #666d89;
+}
+
+.about-us__text h1 {
+  font-size: 30px;
+}
+
+.about-us__text p {
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.employees {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.employees__employee {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: #666d89;
+}
+
+.employees__employee h3 {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.employees__employee p {
+  line-height: 1.9;
+}
+
+.employee__img {
+  width: 300px;
+  height: 300px;
+}
+
+.social-ico {
+  list-style-type: none;
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-ico li {
+  margin: 0 4px;
+}
+
+.social-ico li img:hover {
+  background-color: #2d303a;
+  border-radius: 50%;
+}
+
+.social-ico li:last-child {
+  margin-right: 0px;
+}
+
+.social-ico li:first-child {
+  margin-left: 0px;
+}
+
+.about-us_bottom-line {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.images-portfolio {
+  margin-bottom: 20px;
+}
