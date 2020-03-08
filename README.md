@@ -1,6 +1,6 @@
 ## singolo task
 
-- singolo1 (https://ivan-pogorelov.github.io/singolo/singolo1.html)
-- singolo2
-- singolo3
-- singolo Full
+- Singolo. Part 1(https://ivan-pogorelov.github.io/singolo/singolo1.html)
+- Singolo. Part 2(https://ivan-pogorelov.github.io/singolo/singolo2.html)
+- Singolo. Part 3(https://ivan-pogorelov.github.io/singolo/singolo3.html)
+- Singolo Full(https://ivan-pogorelov.github.io/singolo/index.html)
