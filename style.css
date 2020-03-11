@@ -9,6 +9,16 @@ body {
   box-sizing: border-box;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* HEADER */
 
 header {
@@ -112,6 +122,7 @@ header {
   background-color: #f2f2f2;
   height: 500px;
   margin: 0 auto;
+  position: relative;
 }
 
 .our-services__text h1 {
@@ -156,6 +167,10 @@ header {
   margin-right: 20px;
 }
 
+.item__text {
+  overflow: hidden;
+}
+
 .item__text h3 {
   font-size: 18px;
   font-weight: 900;
@@ -168,6 +183,8 @@ header {
 
 .our-services_bottom-line {
   background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
 }
 
 /* PORTFOLIO */
