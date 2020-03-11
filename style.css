@@ -367,7 +367,7 @@ header {
 
 .get-quote {
   width: 1020px;
-  height: 720px;
+  height: 660px;
   margin: 0 auto;
   background-color: #f06c64;
   color: #f0d8d9;
@@ -418,11 +418,10 @@ header {
 	display: block;
 	text-decoration: none;
 	background: #d6564f;
-	width: 150px;
-	height: 45px;
+	width: 125px;
+	height: 30px;
 	border-radius: 24px;
 	color: #f0d8d9;
-	line-height: 44px;
 	font-size: 14px;
 	margin-top: 16px;
 	border: none;
